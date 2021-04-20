@@ -17,8 +17,9 @@ input {
 
 fieldset {
     width: 500px;
+    height: 600px;
     margin: auto;
-    border-radius: 2px 80px 2px 80px;
+    border-radius: 2px 33% 2px 33%;
     border-color: royalblue;
     background-image: linear-gradient( rgb(184, 58, 110), rgb(115, 139, 212));
 }
