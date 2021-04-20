@@ -1,0 +1,73 @@
+* {
+    /* font-family: monospace; */
+}
+
+form {
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+fieldset {
+    width: 500px;
+    margin: auto;
+    border-radius: 2px 80px 2px 80px;
+    border-color: royalblue;
+    background-image: linear-gradient( rgb(184, 58, 110), rgb(115, 139, 212));
+}
+
+.center {
+    text-align: center;
+}
+
+legend {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.check+a {
+    margin: 20px;
+}
+button {
+    padding: 12px;
+    margin: auto;
+    background-color: royalblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    width: 100px;
+    border-color: gray;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+
+input.email {
+    background-image: url('https://png.pngtree.com/png-clipart/20191120/original/pngtree-email-icon-png-image_5065641.jpg');
+    background-repeat: no-repeat;
+    background-size: 38px;
+    padding: 10px 10px 10px 40px;
+    border-color: royalblue;
+}
+
+input.password {
+    background-image: url('https://i.pinimg.com/originals/4c/f5/e5/4cf5e5648c33b2543062bc4a71fdf636.jpg');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding: 10px 10px 10px 40px;
+    border-color: royalblue;
+}
