@@ -1,0 +1,85 @@
+*{
+    font-family: monospace;
+}
+.main{
+    width: 650px;
+    height: 600px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px groove black;
+    /* background: linear-gradient(rgb(255, 255, 255),rgb(247, 241, 241),rgb(190, 153, 52)); */
+    background: linear-gradient(to top,rgba(252, 207, 6, 0.979),white);
+}
+.center{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.center img{
+    width: 150px;
+}
+
+fieldset{
+    margin: auto;
+    text-align: center;
+    width: 440px;
+    height: 350px;
+    border-radius: 15px;
+    border-color: black;
+}
+input{
+    padding: 25px;
+    margin: 10px;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    border: black;
+}
+input:focus{
+    border-color: royalblue;
+}
+input.email{
+    background-image: url('images/email\ loog.jpg');
+    background-size: 43px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding: 10px 10px 10px 45px;
+}
+input.password{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Safety01-512.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 42px;
+}
+.btn{
+    padding: 15px;
+    margin: 10px;
+    width: 330px;
+    font-size: 1.8rem;
+    font-weight:500;
+    background-color: rgb(202, 109, 93);
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+a input{
+    text-decoration: none;
+    color: peru;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 45px;
+    font-size: 1.1em;
+    /* padding: 10px; */
+}
+button{
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    border-radius: 3px;
+    border: none;
+}
+span{
+    color: black;
+}

@@ -19,7 +19,7 @@ fieldset {
     width: 500px;
     height: 600px;
     margin: auto;
-    border-radius: 2px 33% 2px 33%;
+    border-radius: 2px 20% 2px 20%;
     border-color: royalblue;
     background-image: linear-gradient( rgb(184, 58, 110), rgb(115, 139, 212));
 }
